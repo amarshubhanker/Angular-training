@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    background-image: url("sponge-bob-cartoon-spongebob-squarepants-patrick-todo-list-desktop-370948.jpg");
+}
+h3 {
+    text-decoration: saddlebrown;
+}
+
+#inp{
+    background-color: #cccccc;
+}
+
+#myTodo{
+    padding: 10px;
+    position:fixed;
+    top: 70%;
+    left: 50%;
+    width:30em;
+    /*height:18em;*/
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #e1fffc;
+}
+
+#todoListActive{
+    background-color: bisque;
+}
+
+#todoListCompleted{
+    background-color: lightyellow;
+}
+
+#todoListDeleted{
+    background-color: lemonchiffon;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
